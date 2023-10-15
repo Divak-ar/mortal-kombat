@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mortal Kombat</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <div style="position: relative; display: inline-block;">
+        <div style="position: absolute; display: flex; width: 100%; align-items: center; padding: 20px;">
+
+            <!--Player Health-->
+            <div style="position: relative; height: 40px; width: 100%; display: flex; justify-content: flex-end;">
+                <div style="background-color: red; height: 40px; width: 100%;">
+                </div>
+                <div style="position: absolute; top: 0; right: 0; bottom: 0; left: 0; z-index: 10; text-align: center; padding-top: 10px; font-weight: 700;color: blue;" >Player 1</div>
+                <div id="playerHealth" style="position: absolute; background: mediumspringgreen; top: 0; right: 0; bottom: 0; width: 100%; ">
+                </div>
+            </div>
+
+            <!--Timer-->
+            <div id="timer" style="background-color: rebeccapurple; width: 100px; height: 50px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; color: whitesmoke; border: 4px solid plum; font-weight: bolder; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+                20
+            </div>
+
+
+            <!--Enemy Health-->
+            <div style="position: relative; height: 40px; width: 100%;">
+                <div style="background-color: red; height: 40px;">
+                </div>
+                <div style="position: absolute; top: 0; right: 0; bottom: 0; left: 0; z-index: 10; text-align: center; padding-top: 10px; font-weight: 700;color: blue;" >Player 2</div>
+                <div id="enemyHealth" style="position: absolute; background: mediumspringgreen; top: 0; right: 0; bottom: 0; left: 0; ">
+                </div>
+            </div>
+
+        </div>
+        <div id='displayText' style="position: absolute; color: darkorange; display: none; align-items: center; justify-content: center; top:0; right: 0; bottom: 0; left: 0;font-size: xx-large; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Tie</div>
+        <canvas></canvas>
+         
+    </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js" integrity="sha512-H6cPm97FAsgIKmlBA4s774vqoN24V5gSQL4yBTDOY2su2DeXZVhQPxFK4P6GPdnZqM9fg1G3cMv5wD7e6cFLZQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="js/utility.js"></script>
+<script src="js/class.js"></script>
+<script src="js/script.js"></script>
+</html>
