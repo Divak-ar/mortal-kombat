@@ -14,15 +14,15 @@ function rectangularCollision({rectangle1 , rectangle2}
         }
     
         else if(player.health > enemy.health){
-            document.querySelector('#displayText').innerHTML = 'Player 1 Wins'
+            document.querySelector('#displayText').innerHTML = 'Kenny Wins'
         }
     
         else if(player.health < enemy.health){
-            document.querySelector('#displayText').innerHTML = 'Player 2 Wins'
+            document.querySelector('#displayText').innerHTML = 'Mat-Dork Wins'
         }
     }
     
-    let timer = 45
+    let timer = 60
     let timerId 
     function decreaseTimer(){
         //decreasing time
