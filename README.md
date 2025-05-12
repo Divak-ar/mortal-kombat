@@ -1,6 +1,6 @@
 # Mortal Kombat Style Fighting Game
 
-![](img/game/start.png)
+![](img/gameplay/start.png)
 
 A 2D fighting game inspired by classic fighting games, built using HTML5 Canvas and JavaScript.
 
@@ -16,15 +16,15 @@ A 2D fighting game inspired by classic fighting games, built using HTML5 Canvas 
 
 ### Controls
 
-![](img/game/move.png)
+![](img/gameplay/move.png)
 
-#### Player 1 (Samurai Mack):
+#### Player 1 (kenny):
 - **A** - Move left
 - **D** - Move right
 - **W** - Jump
 - **Space** - Attack
 
-#### Player 2 (Kenji):
+#### Player 2 (Mat-dork):
 - **←** - Move left
 - **→** - Move right
 - **↑** - Jump
@@ -55,7 +55,7 @@ The game is built using Object-Oriented Programming principles with the followin
 - **Collision Detection**: Precise hit detection for attacks
 - **Animation System**: Frame-by-frame sprite animation system
 
-![](img/game/victory.png)
+![](img/gameplay/victory.png)
 
 ## 🚀 Future Improvements
 
